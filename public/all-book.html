@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Buku LibraryQ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a style="font-weight: 600;" class="navbar-brand" href="#">𓍢ִ໋🀦 LibraryQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Tentang</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#buku">Buku</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fitur">Fitur</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Cari buku...">
+                    <button class="btn btn-outline-primary" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+    <!-- Genre List -->
+  <div class="container">
+    <div class="genre-list">
+      <span>Fiksi</span>
+      <span>Sejarah</span>
+      <span>Fantasi</span>
+      <span>Self-Help</span>
+      <span>Biografi</span>
+      <span>Misteri</span>
+      <span>Romansa</span>
+      <span>Teknologi</span>
+    </div>
+  </div>
+
+    <div id="buku" class="container mt-5 pt-5">
+        <h1 class="text-center">📚 Koleksi Buku</h1>
+        <div style="display: flex; justify-content: center;">
+            <svg width="200" height="25" viewBox="0 0 200 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 15 C 50 30, 150 5, 195 15" stroke="#007bff" stroke-width="6" stroke-linecap="round"
+                    fill="none" stroke-opacity="0.8" />
+            </svg>
+        </div>
+        <br>
+        <!-- Genre: Buku -->
+        <div class="genre-section">
+            <div class="genre-title">
+                <h4>📚 Fiksi / Fantasi</h4>
+            </div>
+            <div class="book-container">
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fiksi/bumi.jpg">
+                    <h6>Bumi</h6>
+                    <p>Tere Liye</p>
+                    <p>Stock: 3</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/akademi ouranos.jpg">
+                    <h6>Akademi Ouranos</h6>
+                    <p>Arlita Arika</p>
+                    <p>Stock: 5</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/seraphina.jpg">
+                    <h6>Seraphina</h6>
+                    <p>Rachel Hartman</p>
+                    <p>Stock: 2</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/the afterlife.jpg">
+                    <h6>The Afterlife</h6>
+                    <p>Justin Cronin</p>
+                    <p>Stock: 7</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/tujuh kelana.jpeg">
+                    <h6>Tujuh Kelana</h6>
+                    <p>Dyanne Arista</p>
+                    <p>Stock: 4</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="genre-section">
+            <div class="genre-title">
+                <h4>📚 Sejarah</h4>
+            </div>
+            <div class="book-container">
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/babad tanah jawi.jpeg">
+                    <h6>Babad Tanah Jawa</h6>
+                    <p>Soejipto Abimanyu</p>
+                    <p>Stock: 1</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/homodeus.avif">
+                    <h6>Homodeus</h6>
+                    <p>Yuval Noah Harari</p>
+                    <p>Stock: 5</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/majapahit.jpg">
+                    <h6>Majapahit</h6>
+                    <p>Herald Van Der Linde</p>
+                    <p>Stock: 8</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/sapiens.jpg">
+                    <h6>Sapiens</h6>
+                    <p>Yuval Noah Harari</p>
+                    <p>Stock: 2</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/soekarno hatta syahrir.jpg">
+                    <h6>Soekarno Hatta Syahrir</h6>
+                    <p>M Ronadhon MK</p>
+                    <p>Stock: 1</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+            </div>
+        </div>
+        <!-- Genre: Buku -->
+        <div class="genre-section">
+            <div class="genre-title">
+                <h4>📚 Fiksi / Fantasi</h4>
+            </div>
+            <div class="book-container">
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fiksi/bumi.jpg">
+                    <h6>Bumi</h6>
+                    <p>Tere Liye</p>
+                    <p>Stock: 3</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/akademi ouranos.jpg">
+                    <h6>Akademi Ouranos</h6>
+                    <p>Arlita Arika</p>
+                    <p>Stock: 5</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/seraphina.jpg">
+                    <h6>Seraphina</h6>
+                    <p>Rachel Hartman</p>
+                    <p>Stock: 2</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/the afterlife.jpg">
+                    <h6>The Afterlife</h6>
+                    <p>Justin Cronin</p>
+                    <p>Stock: 7</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/tujuh kelana.jpeg">
+                    <h6>Tujuh Kelana</h6>
+                    <p>Dyanne Arista</p>
+                    <p>Stock: 4</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="genre-section">
+            <div class="genre-title">
+                <h4>📚 Sejarah</h4>
+            </div>
+            <div class="book-container">
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/babad tanah jawi.jpeg">
+                    <h6>Babad Tanah Jawa</h6>
+                    <p>Soejipto Abimanyu</p>
+                    <p>Stock: 1</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/homodeus.avif">
+                    <h6>Homodeus</h6>
+                    <p>Yuval Noah Harari</p>
+                    <p>Stock: 5</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/majapahit.jpg">
+                    <h6>Majapahit</h6>
+                    <p>Herald Van Der Linde</p>
+                    <p>Stock: 8</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/sapiens.jpg">
+                    <h6>Sapiens</h6>
+                    <p>Yuval Noah Harari</p>
+                    <p>Stock: 2</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/soekarno hatta syahrir.jpg">
+                    <h6>Soekarno Hatta Syahrir</h6>
+                    <p>M Ronadhon MK</p>
+                    <p>Stock: 1</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+            </div>
+        </div>
+        <!-- Genre: Buku -->
+        <div class="genre-section">
+            <div class="genre-title">
+                <h4>📚 Fiksi / Fantasi</h4>
+            </div>
+            <div class="book-container">
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fiksi/bumi.jpg">
+                    <h6>Bumi</h6>
+                    <p>Tere Liye</p>
+                    <p>Stock: 3</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/akademi ouranos.jpg">
+                    <h6>Akademi Ouranos</h6>
+                    <p>Arlita Arika</p>
+                    <p>Stock: 5</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/seraphina.jpg">
+                    <h6>Seraphina</h6>
+                    <p>Rachel Hartman</p>
+                    <p>Stock: 2</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/the afterlife.jpg">
+                    <h6>The Afterlife</h6>
+                    <p>Justin Cronin</p>
+                    <p>Stock: 7</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/tujuh kelana.jpeg">
+                    <h6>Tujuh Kelana</h6>
+                    <p>Dyanne Arista</p>
+                    <p>Stock: 4</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="genre-section">
+            <div class="genre-title">
+                <h4>📚 Sejarah</h4>
+            </div>
+            <div class="book-container">
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/babad tanah jawi.jpeg">
+                    <h6>Babad Tanah Jawa</h6>
+                    <p>Soejipto Abimanyu</p>
+                    <p>Stock: 1</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/homodeus.avif">
+                    <h6>Homodeus</h6>
+                    <p>Yuval Noah Harari</p>
+                    <p>Stock: 5</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/majapahit.jpg">
+                    <h6>Majapahit</h6>
+                    <p>Herald Van Der Linde</p>
+                    <p>Stock: 8</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/sapiens.jpg">
+                    <h6>Sapiens</h6>
+                    <p>Yuval Noah Harari</p>
+                    <p>Stock: 2</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/soekarno hatta syahrir.jpg">
+                    <h6>Soekarno Hatta Syahrir</h6>
+                    <p>M Ronadhon MK</p>
+                    <p>Stock: 1</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+            </div>
+        </div>
+        <!-- Genre: Buku -->
+        <div class="genre-section">
+            <div class="genre-title">
+                <h4>📚 Fiksi / Fantasi</h4>
+            </div>
+            <div class="book-container">
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fiksi/bumi.jpg">
+                    <h6>Bumi</h6>
+                    <p>Tere Liye</p>
+                    <p>Stock: 3</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/akademi ouranos.jpg">
+                    <h6>Akademi Ouranos</h6>
+                    <p>Arlita Arika</p>
+                    <p>Stock: 5</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/seraphina.jpg">
+                    <h6>Seraphina</h6>
+                    <p>Rachel Hartman</p>
+                    <p>Stock: 2</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/the afterlife.jpg">
+                    <h6>The Afterlife</h6>
+                    <p>Justin Cronin</p>
+                    <p>Stock: 7</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/fantasi/tujuh kelana.jpeg">
+                    <h6>Tujuh Kelana</h6>
+                    <p>Dyanne Arista</p>
+                    <p>Stock: 4</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="genre-section">
+            <div class="genre-title">
+                <h4>📚 Sejarah</h4>
+            </div>
+            <div class="book-container">
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/babad tanah jawi.jpeg">
+                    <h6>Babad Tanah Jawa</h6>
+                    <p>Soejipto Abimanyu</p>
+                    <p>Stock: 1</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/homodeus.avif">
+                    <h6>Homodeus</h6>
+                    <p>Yuval Noah Harari</p>
+                    <p>Stock: 5</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/majapahit.jpg">
+                    <h6>Majapahit</h6>
+                    <p>Herald Van Der Linde</p>
+                    <p>Stock: 8</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/sapiens.jpg">
+                    <h6>Sapiens</h6>
+                    <p>Yuval Noah Harari</p>
+                    <p>Stock: 2</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+                <div class="koleksi-buku">
+                    <img src="sapul buku/sejarah/soekarno hatta syahrir.jpg">
+                    <h6>Soekarno Hatta Syahrir</h6>
+                    <p>M Ronadhon MK</p>
+                    <p>Stock: 1</p>
+                    <button class="btn">Pinjam</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
